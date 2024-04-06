@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80px;
+  min-width: 120px;
+  background-color: #fff;
+  border: 1px solid #b3b8cd;
+  border-radius: 5px;
+  width: 100%;
+}
+.label {
+  margin-bottom: 16px;
+}
