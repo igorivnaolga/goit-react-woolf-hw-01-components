@@ -1,0 +1,25 @@
+.td {
+  padding: 10px;
+  color: #747679;
+  text-align: center;
+}
+
+.tr {
+  background-color: #ecf1f4;
+}
+.tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.type {
+  composes: td;
+  text-transform: capitalize;
+}
+
+.amount {
+  composes: td;
+}
+
+.currency {
+  composes: td;
+}

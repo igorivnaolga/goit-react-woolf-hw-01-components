@@ -8,6 +8,7 @@ body {
   flex-direction: column;
 
   min-height: 100vh;
+  padding: 40px;
   margin: 0;
 }
 
@@ -15,7 +16,7 @@ body {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-  color: #b3b8cd;
+  color: #8291a0;
   padding-top: 30px;
   position: relative;
   width: 350px;

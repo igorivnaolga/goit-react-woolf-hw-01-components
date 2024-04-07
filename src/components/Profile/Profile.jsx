@@ -1,14 +1,6 @@
 import './Profile.css';
 
-const Profile = ({
-  avatar,
-  username,
-  tag,
-  location,
-  followers,
-  views,
-  likes,
-}) => {
+const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
     <div className="profile">
       <div className="description">
@@ -21,15 +13,15 @@ const Profile = ({
       <ul className="stats">
         <li className="stats-item">
           <span className="label">Followers</span>
-          <span className="quantity">{followers}</span>
+          <span className="quantity">{stats.followers}</span>
         </li>
         <li className="stats-item">
           <span className="label">Views</span>
-          <span className="quantity">{views}</span>
+          <span className="quantity">{stats.views}</span>
         </li>
         <li className="stats-item">
           <span className="label">Likes</span>
-          <span className="quantity">{likes}</span>
+          <span className="quantity">{stats.likes}</span>
         </li>
       </ul>
     </div>
