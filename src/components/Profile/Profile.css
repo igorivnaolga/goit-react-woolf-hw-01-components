@@ -67,11 +67,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #b3b8cd;
+  border-right: 1px solid #b3b8cd;
   padding-inline: 34px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
+}
+.stats-item:last-child {
+  border-right: none;
 }
 .label {
   padding-bottom: 8px;
